@@ -33,6 +33,7 @@ const App =() => {
     'products', 
     getProducts
     );
+    console.log(data)
 
 const getTotalItems = (items: CartItemType[]) => {
   return(
